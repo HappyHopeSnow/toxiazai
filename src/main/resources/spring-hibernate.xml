@@ -70,7 +70,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 		<!-- 一种方式:自动扫描注解方式配置的hibernate类文件(这个通过注解比较好用) -->
 		<property name="packagesToScan">
 			<list>
-				<value>com.youmeek.ssh.domain</value>
+				<value>com.toxiazai.entity</value>
 			</list>
 		</property>
 
@@ -118,7 +118,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 	</tx:advice>
 	<aop:config>
         <!--把这个拦截器配置到com.youmeek.ssh.service下(包括子包)下的以Impl为后缀的类的,任意方法-->
-		<aop:pointcut id="transactionPointcut" expression="execution(* com.youmeek.ssh.service..*Impl.*(..))" />
+		<aop:pointcut id="transactionPointcut" expression="execution(* com.toxiazai.service..*Impl.*(..))" />
 		<aop:advisor pointcut-ref="transactionPointcut" advice-ref="transactionAdvice" />
 	</aop:config>
 
