@@ -1,6 +1,6 @@
-package com.youmeek.ssh.service;
+package com.toxiazai.service;
 
-import com.youmeek.ssh.domain.SysUser;
+import com.toxiazai.entity.SysUser;
 
 import java.io.Serializable;
 

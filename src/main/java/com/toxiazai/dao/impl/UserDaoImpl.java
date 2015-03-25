@@ -1,7 +1,7 @@
-package com.youmeek.ssh.dao.impl;
+package com.toxiazai.dao.impl;
 
-import com.youmeek.ssh.dao.UserDaoI;
-import com.youmeek.ssh.domain.SysUser;
+import com.toxiazai.dao.UserDaoI;
+import com.toxiazai.entity.SysUser;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

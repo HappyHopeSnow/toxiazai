@@ -1,8 +1,8 @@
-package com.youmeek.ssh.service.impl;
+package com.toxiazai.service.impl;
 
-import com.youmeek.ssh.dao.UserDaoI;
-import com.youmeek.ssh.domain.SysUser;
-import com.youmeek.ssh.service.UserServiceI;
+import com.toxiazai.dao.UserDaoI;
+import com.toxiazai.entity.SysUser;
+import com.toxiazai.service.UserServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

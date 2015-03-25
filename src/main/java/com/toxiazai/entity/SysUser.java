@@ -1,4 +1,4 @@
-package com.youmeek.ssh.domain;
+package com.toxiazai.entity;
 
 import javax.persistence.*;
 
